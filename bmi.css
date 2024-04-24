@@ -25,4 +25,22 @@ body {
    text-align: center;
 }
 
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color:#33d9b2;
+    color:white;
+    margin-bottom: 10px;
+}
 
