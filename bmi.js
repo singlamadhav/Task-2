@@ -9,3 +9,8 @@ calculate.addEventListener('click', () => {
         alert('Please enter your height and weight');
         return;
    }else{
+	    let height_value = height.value;
+        let weight_value = weight.value;
+        let height_value_meters = height_value / 100;
+        let bmi = weight_value / (height_value_meters * height_value_meters);
+        bmi = bmi.toFixed(2);
