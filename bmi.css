@@ -8,3 +8,20 @@
     color:#33d9b2;
 
 }
+body {
+    background-color:#33d9b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+   width: 400px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+   text-align: center;
+}
+
