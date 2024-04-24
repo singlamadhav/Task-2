@@ -21,3 +21,9 @@ calculate.addEventListener('click', () => {
 
 
         }else if( bmi >= 18.5 && bmi <= 24.9 ){
+		   bmi_status.textContent = 'Normal';
+        }else if( bmi >= 25 && bmi <= 39.9 ){
+            bmi_status.textContent = 'Overweight';
+            dietPlanLink.href = "overweight.html"
+
+        }else if( bmi >= 40){
