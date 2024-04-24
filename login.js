@@ -10,6 +10,9 @@ $(window).on("hashchange", function () {
                 $("#login").removeClass("active");
                 $("#signup").addClass("active");
         } else {
+$(window).trigger("hashchange");
+
+function validateLoginForm() {
 
 ~
 ~
