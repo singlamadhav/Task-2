@@ -13,6 +13,11 @@ $(window).on("hashchange", function () {
 $(window).trigger("hashchange");
 
 function validateLoginForm() {
+	var name = document.getElementById("logName").value;
+	var password = document.getElementById("logPassword").value;
+
+	if (name == "" || password == "") {
+		document.getElementById("errorMsg").innerHTML = "Please fill the required fields"
 
 ~
 ~
