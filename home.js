@@ -1,4 +1,5 @@
 let menu = document.querySelector('#menu-btn')
+
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = () =>{
@@ -16,6 +17,7 @@ menu.onclick = () =>{
 window.onscroll = () =>{
     menu.classList.remove('fa-times');
 
+
 ~
 ~
 ~
@@ -62,7 +64,11 @@ window.onscroll = () =>{
 ~
 ~
 ~
-home.js[+] [unix] (14:43 24/04/2024)                                                                                                                                                                      9,38 Top
+home.js[+] [unix] (14:43 24/04/2024)                                                                                                                                                                      9,38 Top    navbar.classList.remov    navbar.classList.remove('active');
+}
+e('active');
+}
+
 
 ~
 ~
