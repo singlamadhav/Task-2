@@ -27,3 +27,9 @@ calculate.addEventListener('click', () => {
             dietPlanLink.href = "overweight.html"
 
         }else if( bmi >= 40){
+		    bmi_status.textContent = 'Obese';
+            dietPlanLink.href = "obese.html"
+
+        }
+   }
+});
