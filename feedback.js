@@ -24,5 +24,10 @@ sendBtn.addEventListener('click', (e) => {
         
         Thank You!
 
+  Feedback : ${selectedRating}
+        We'll use your feedback to improve our customer support
+    `
+})
+
 
 
