@@ -58,3 +58,15 @@ section{
     font-size: 1.7rem;
     background: #fff;
 }
+btn span{
+    padding:.7rem 1rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color:#fff;
+    margin-left: .5rem;
+}
+
+.btn:hover{
+    background: var(--green);
+    color:#fff;
+}
