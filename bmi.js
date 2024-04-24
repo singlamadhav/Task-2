@@ -14,3 +14,10 @@ calculate.addEventListener('click', () => {
         let height_value_meters = height_value / 100;
         let bmi = weight_value / (height_value_meters * height_value_meters);
         bmi = bmi.toFixed(2);
+	     bmi_value.textContent = bmi;
+        if( bmi <= 18.4){
+            bmi_status.textContent = 'Underweight';
+            dietPlanLink.href ="underweight.html"
+
+
+        }else if( bmi >= 18.5 && bmi <= 24.9 ){
