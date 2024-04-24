@@ -42,7 +42,13 @@ function validateSignupForm() {
 	else if (password.length < 8) {
 		document.getElementById("errorMsg").innerHTML = "Your password must include atleast 8 characters"
 		return false;
+	}
+	else {
+		alert("Successfully signed up");
+		return true;
+	}
 
+}
 ~
 ~
 ~
