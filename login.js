@@ -24,6 +24,16 @@ function validateLoginForm() {
 	else if (password.length < 8) {
 		document.getElementById("errorMsg").innerHTML = "Your password must include atleast 8 characters"
 		return false;
+	}
+	else {
+		alert("Successfully logged in");
+		return true;
+	}
+}
+function validateSignupForm() {
+	var mail = document.getElementById("signEmail").value;
+	var name = document.getElementById("signName").value;
+	var password = document.getElementById("signPassword").value;
 
 ~
 ~
