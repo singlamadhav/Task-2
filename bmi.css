@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#dietPlanLink{
+    padding: 40px;
+    color:#33d9b2;
+
+}
