@@ -25,6 +25,20 @@ body {
    text-align: center;
 }
 
+.header {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    background-color:#33d9b2;
+    color: white;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 input {
     width: 90%;
     padding: 10px;
@@ -43,4 +57,18 @@ button {
     color:white;
     margin-bottom: 10px;
 }
+
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+bmi.css [unix] (13:44 24/04/2024)                                                                                                                                                                         46,1 All
+-- INSERT --
 
