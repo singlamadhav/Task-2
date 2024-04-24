@@ -5,7 +5,64 @@ menu.onclick = () =>{
 	    menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 }
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');let menu = document.querySelector('#menu-btn')
+let navbar = document.querySelector('.navbar');
 
+menu.onclick = () =>{
+            menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+}
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+home.js[+] [unix] (14:43 24/04/2024)                                                                                                                                                                      9,38 Top
 
 ~
 ~
