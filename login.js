@@ -35,6 +35,11 @@ function validateSignupForm() {
 	var name = document.getElementById("signName").value;
 	var password = document.getElementById("signPassword").value;
 
+	if (mail == "" || name == "" || password == "") {
+		document.getElementById("errorMsg").innerHTML = "Please fill the required fields"
+		return false;
+	}
+
 ~
 ~
 ~
