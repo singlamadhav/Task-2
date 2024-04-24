@@ -7,4 +7,22 @@ body{
     font-family : Verdana,Tahoma, sans-serif;
 }
 
+.box{
+    width: 380px;
+    height: 500px;
+    /* background-color:rgba(0, 0, 0, 0.7); */
+    background-color: rgb(193, 224, 251);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.box img{
+	width:50px;
+    margin-top:-90px ;
+    margin-bottom: -18px;
+}
 
