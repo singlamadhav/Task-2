@@ -35,4 +35,21 @@ body{
 	justify-content: space-between;
 }
 
+.header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+	display: inline-flex;
+    padding-left: 25px;
+    padding-right: 25px;
+	justify-content: center;
+    cursor:pointer;
+}
+
+.header .active {
+    color: blueviolet;
+	font-weight: bold;
+	position: relative;
+}
+
 
