@@ -28,4 +28,6 @@ body {
   color: #8ffbd7;
   margin:10% auto 2% auto;
 }
-
+.panel-container strong {
+  line-height: 20px;
+}
