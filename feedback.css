@@ -55,4 +55,63 @@ body {
   color: #fff;
   display: inline-block;
   margin: 10px 0 0;
+
+}.rating:hover small,
+.rating.active small {
+  color: #8ffbd7;
+}
+
+.btn {
+  background-color: #16a085;
+  color: #000;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.fa-heart {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+.credit a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .credit {
+      text-align: center;
+  }
+.btn {
+  background-color: #16a085;
+  color: #000;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.fa-heart {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
